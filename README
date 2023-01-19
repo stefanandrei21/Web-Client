@@ -1,0 +1,7 @@
+PANAIT STEFAN ANDREI 322CA
+    Am implementant tema pe acelasi schelet de laborator requestul l-am modificat in sensul in care in laborator aveam ** la body-data si la cookies eu l-am facut *
+    la body-data pentru ca acum construiam cu json si nu vedeam sensul si la cookies pentru usurinta lucratului cu el. In plus am adaugat DELETE la care creez mesajul
+    ca la GET si am mai adaugat tokenul jwt. Am avut o eroare in cod eu initial deschideam un socket ca in laborator inainte de while si la un moment dat numai mergea 
+    programul am modificat si deschid in fiecare if si numai se intampla. Am ales sa creez JSON-urile de mana pentru a mi fi mai usor si pentru a controla mai bine.
+    Comenzi: register, login, access_library (cer acces la librarie), all_books (primesc toate cartile), book (verific detaliile unei carti), add_book (adaug carte),
+    delete_book (sterg carte), logout, exit.
